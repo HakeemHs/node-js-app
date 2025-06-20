@@ -4,7 +4,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hello Elastic Beanstalk +  CodePipeline!');
+  res.send('Hello From Elastic Beanstalk +  CodePipeline!');
 });
 
 module.exports = app;
